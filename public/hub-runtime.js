@@ -167,8 +167,8 @@
       `;
     }
 
-    const SALARIO_PDF = '/product/salario/guia-o-salario-sumiu.pdf';
-    const SALARIO_A = '/product/salario';
+    const SALARIO_PDF = 'https://raw.githubusercontent.com/toppaplicativos/financas-hub/1efe090036052e5cba84f8c990c3c234623cabfc/public/product/salario/guia-o-salario-sumiu.pdf';
+    const SALARIO_A = 'https://raw.githubusercontent.com/toppaplicativos/financas-hub/1efe090036052e5cba84f8c990c3c234623cabfc/public/product/salario';
     const SALARIO_PAY = '#oferta';
     const salarioCta = (label) => `<a class="button sp-cta" href="${SALARIO_PAY}">${label}</a>`;
 
